@@ -1,0 +1,32 @@
+{
+  "name": "pocket_tracker_api",
+  "version": "1.0.0",
+  "description": "pocket tracker api track income and expenses which is build with node.js, express.js and mongoose",
+  "main": "index.js",
+  "module": "main.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "cross-env NODE_ENV=development nodemon index"
+  },
+  "keywords": [
+    "income-tracker",
+    "expense-tracker",
+    "budgeting"
+  ],
+  "author": "aajafry",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "esm": "^3.2.25",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.3"
+  }
+}
